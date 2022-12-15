@@ -64,9 +64,6 @@ function onDeviceReady() {
         },
         success: function (data) {
           console.log(data);
-          /**
-           * refreshes app-content to display latest posts
-           */
           loadData();
         },
         error: function (error) {
